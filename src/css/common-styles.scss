@@ -1,0 +1,61 @@
+$mainFont: "Open-Sans", sans-serif;
+
+.title {
+    font-family: $mainFont;
+    font-size: clamp(20px, 2vw, 34px);
+    font-weight: 500;
+}
+
+.label {
+    font-family: $mainFont;
+    font-size: clamp(16px, 1vw, 28px);
+    font-weight: 500;
+}
+
+.btn {
+    width: clamp(150px, 15vw, 350px);
+    height: 5%;
+    padding: 1% 2%;
+    border: 1px solid grey;
+    @extend .label;
+}
+
+.items {
+    width: clamp(250px, 25vw, 600px);
+    display: block;
+    padding: 10px 5px;
+    @extend .label;
+    border: 1px solid grey;
+    border-radius: 1px;
+    text-align: left;
+    height: 50px;
+}
+
+.btn:hover {
+    border: 1px solid #10ad6f;
+}
+
+.active {
+    border: 1px solid #1126b3;
+}
+
+.ibtn {
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+}
+
+.inp {
+    width: 100px;
+}
+
+.q-field__native {
+    padding: 0px;
+}
+.q-field__control {
+    height: 50px;
+}
+
+.q-item {
+    padding: 0px;
+}
